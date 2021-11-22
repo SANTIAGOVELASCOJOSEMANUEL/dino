@@ -71,22 +71,22 @@ document.addEventListener('keydown', function(evento){
 
 function cargaImagenes(){
 	imagenDinosaurio= new Image();
-	imagenDinosaurio.src='img/Dinosaurio.png';
+	imagenDinosaurio.src='Dinosaurio.png';
 
 	imagenNube= new Image();
-	imagenNube.src='img/Nube.jpg';
+	imagenNube.src='Nube.jpg';
 
 	imagenNubedos= new Image();
-	imagenNubedos.src='img/Nubedos.png';
+	imagenNubedos.src='Nubedos.png';
 
 	imagenSol= new Image();
-	imagenSol.src='img/Sol.jpg';
+	imagenSol.src='Sol.jpg';
 
 	imagenCactus= new Image();
-	imagenCactus.src='img/Cactus.jpg';
+	imagenCactus.src='Cactus.jpg';
 
 	imagenSuelo= new Image();
-	imagenSuelo.src='img/Suelo.png';
+	imagenSuelo.src='Suelo.png';
 }
 
 function inicializa(){
@@ -238,13 +238,6 @@ function principal(){
 	gravedad();
 	puntuacion();
 }
-
-
-
-
-
-
-
 
 
 
